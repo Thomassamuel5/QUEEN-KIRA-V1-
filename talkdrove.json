@@ -1,0 +1,25 @@
+{
+  "name": "Anita V5 WhatsApp Bot",
+  "description": "A simple WhatsApp User Bot Coded By David Cyril",
+  "logo": "https://avatars.githubusercontent.com/u/116620335?v=4",
+  "keywords": ["whatsapp", "bot", "nodejs"],
+  "documentation-link": "https://github.com/Thomassamuel5/Anita-V5",
+  "owner-verification": "nextapi538@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put session id",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot command prefix (e.g., ., !, @)",
+      "value": ".",
+      "required": true
+    },
+    "PREMIUM_USERS": {
+      "description": "Premium users",
+      "value": "923072380**",
+      "required": false
+    }
+  }
+}
